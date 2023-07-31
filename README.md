@@ -38,6 +38,7 @@ To run the API for both Fastify and Express implementations, follow these steps:
   ```
 
 3. Start the API server: once packages are installed type ``` node app<1/2>.js```
+4. use POSTman to check for API endpoints and scenarios
 
 
 
