@@ -85,7 +85,7 @@ app.get('/updatemovies/:idOrName', async (req, res) => {
     const { idOrName } = req.params;
     let movie;
 
-    // Check if the provided parameter is a valid MongoDB ObjectId (i.e., a movie ID)
+    
     if (mongoose.isValidObjectId(idOrName)) {
       movie = await Movie.findById(idOrName);
     } else {
